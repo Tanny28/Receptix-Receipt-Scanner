@@ -1,0 +1,37 @@
+Receptix - Smart Receipt Scanner Dependencies
+
+# Core OCR and Image Processing
+pytesseract>=0.3.10
+Pillow>=9.5.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# GUI Framework
+tkinter-tooltip>=1.1.0
+
+# Additional Utilities
+python-dateutil>=2.8.2
+regex>=2023.6.3
+
+# Development and Testing (Optional)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Note: tkinter comes pre-installed with most Python distributions
+# If tkinter is not available, install it using:
+# Ubuntu/Debian: sudo apt-get install python3-tk
+# CentOS/RHEL: sudo yum install tkinter
+# macOS: Usually included with Python
+# Windows: Usually included with Python
+
+# Installation Instructions:
+# 1. Install Tesseract OCR:
+#    - Windows: Download from https://github.com/UB-Mannheim/tesseract/wiki
+#    - macOS: brew install tesseract
+#    - Ubuntu/Debian: sudo apt install tesseract-ocr
+#    - CentOS/RHEL: sudo yum install tesseract
+#
+# 2. Install Python dependencies:
+#    pip install -r requirements.txt
+#
+# 3. Update the tesseract path in ocr_utils.py if needed
